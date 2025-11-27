@@ -9,8 +9,8 @@ class Car {
         this.controls = new Controls();
 
         this.speed = 0;
-        this.acceleration = 0.2;
-        this.maxSpeed = 3;
+        this.acceleration = 0.27;
+        this.maxSpeed = 6;
         this.friction = 0.05
 
         this.angle = 0;
@@ -49,19 +49,19 @@ class Car {
             if(this.controls.left){
 
             if(this.speed > 0)
-            this.angle -= 0.03;
+            this.angle -= 0.07;
 
             else 
-            this.angle += 0.03;
+            this.angle += 0.07;
             }
 
             if(this.controls.right){
 
                 if(this.speed > 0)
-                this.angle += 0.03;
+                this.angle += 0.07;
 
                 else
-                this.angle -= 0.03;
+                this.angle -= 0.07;
             }
         }
         

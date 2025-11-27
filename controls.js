@@ -29,7 +29,6 @@ class Controls {
                     break; 
             }
 
-            console.table(this);
         });
 
         window.addEventListener("keyup", (event) => {
@@ -49,7 +48,6 @@ class Controls {
                     break; 
             }
 
-            console.table(this);
         });
 
     }
